@@ -1,5 +1,9 @@
 # Using ActiveModel::Serializer
 
+#BEFORE using a serializer:
+# render json: @post.to_json(only: [:title, :description, :id],
+#                           include: [author: { only: [:name]}])
+
 ## Objectives
 
 1.  Explain what ActiveModel::Serializer does.
