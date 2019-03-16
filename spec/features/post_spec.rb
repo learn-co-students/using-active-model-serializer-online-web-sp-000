@@ -9,7 +9,7 @@ describe 'navigate' do
     visit post_path(@post)
     expect(page).to have_css("h1", text: "My Post")
   end
-
+=begin
   it 'to post pages' do
     visit post_path(@post)
     expect(page.status_code).to eq(200)
@@ -45,4 +45,5 @@ describe 'form' do
 
     expect(page).to have_content("My edit")
   end
+=end
 end
