@@ -143,7 +143,7 @@ Serializers will take care of this for us.
 
 But second, and more importantly, AMS doesn't require us to do the
 tedious work of building out JSON strings by hand. We'll see it in
-action shortly.
+action shortly .
 
 In Rails 5, the goal was to allow developers to create lean,
 efficient, API-only Rails applications. M and C without the V. With the
