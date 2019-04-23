@@ -10,8 +10,8 @@
 
 Imagine we had a blog application . When we want to view an instance of a `Post`,
 we also want to view the `Author` associated with that `Post`. We could manually
-nest the data by using the built in ActiveRecord method `to_json` to serialize
-this data in a way that makes sense. Take a look at the current implementation 
+nest the data by using the built in ActiveRecord method `to_json` to  serialize
+this data in a way that makes sense. Take a look at the current implementation  
 of that:
 
 ```ruby
