@@ -8,10 +8,10 @@
 
 ## Lesson
 
-Imagine we had a blog application. When we want to view an instance of a `Post`,
+Imagine we had a blog application . When we want to view an instance of a `Post`,
 we also want to view the `Author` associated with that `Post`. We could manually
-nest the data by using the built in ActiveRecord method `to_json` to serialize
-this data in a way that makes sense. Take a look at the current implementation
+nest the data by using the built in ActiveRecord method `to_json` to  serialize
+this data in a way that makes sense. Take a look at the current implementation  
 of that:
 
 ```ruby
@@ -25,7 +25,7 @@ of that:
   end
 ```
 
-It's clear that even a little bit of customizing the output of `to_json` can get
+It's  clear that even a little bit of customizing the output of `to_json` can get
 ugly real quick. Imagine if the post had `comments` and comments had `users` and
 pretty soon we're getting real deep in the weeds trying to keep track of all the
 `include`s and `only`s in a single line of `to_json`.
@@ -143,7 +143,7 @@ Serializers will take care of this for us.
 
 But second, and more importantly, AMS doesn't require us to do the
 tedious work of building out JSON strings by hand. We'll see it in
-action shortly.
+action shortly .
 
 In Rails 5, the goal was to allow developers to create lean,
 efficient, API-only Rails applications. M and C without the V. With the
